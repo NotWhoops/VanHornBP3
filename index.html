@@ -6,38 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Time tracking dashboard</title>
+  <title>Time Tracker</title>
+  <link rel="stylesheet" href="./styles/styles.css">
 
 
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
-
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
-
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
+    <div class="col">
+      <div class="bgColor">
+        <img class="img imgBorder" src="./images/image-jeremy.png" alt="jeremy">
+        <p class="textColor2">Report for</p>
+        <p class="textColor">Jeremy Robson</p>
+      </div>
+    </div>
+    <div class="bgColor2">
+      <p class="dailyColor">Daily</p>
+      <p class="weeklyColor">Weekly</p>
+      <p class="monthlyColor">Monthly</p>
+    </div>
+    <div class="workColor">
+    </div>
+    <div class="workColor2">
+      <p class="textColor3">Work</p>
+      <p>5hrs <!-- daily --> Previous - 7hrs <!-- daily --></p>
+      <p>32hrs <!-- weekly --> Previous - 36hrs <!-- weekly --></p>
+      <p>103hrs <!-- monthly --> Previous - 128hrs <!-- monthly --></p>
+    </div>
+    <div class="playColor">
+      
+    </div>
+    <div class="studyColor">
+      
+    </div>
+    
   Play
   1hr <!-- daily -->
   Previous - 2hrs <!-- daily -->
@@ -84,6 +86,7 @@
     Coded by <a href="#">Brandon</a>.
   </div>
 
+  <script src="./app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
