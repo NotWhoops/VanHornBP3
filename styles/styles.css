@@ -29,7 +29,7 @@
         border: 3px solid #FFFFFF;
         border-radius: 100px;
     }
-
+    
     .bgColor{
         background-color: #5747EA;
         width: 255px;
@@ -45,7 +45,13 @@
         border-radius: 15px;
         margin-top: -16px;
     }
-
+    
+    .bgColor3{
+        background-color: #1C204B;
+        width: 255px;
+        height: 154px;
+        border-radius: 15px;
+    }
     
     .cardPlace{
         display: grid;
@@ -77,6 +83,16 @@
         padding-top: 30px;
         margin-left: 30px;
     }
+
+    .dailyColor:hover{
+        color: blue;
+    }
+    .weeklyColor:hover{
+        color: blue;
+    }
+    .monthlyColor:hover{
+        color: blue;
+    }
     
     .weeklyColor{
         color: #FFFFFF;
@@ -95,8 +111,32 @@
         border-radius: 15px;
     }
 
-    .workColor2{
-        background-color: #1C204B;
+    .playColor{
+        background-color: #55C2E6;
+        width: 255px;
+        height: 154px;
+        border-radius: 15px;
+    }
+    .studyColor{
+        background-color: #FF5E7D;
+        width: 255px;
+        height: 154px;
+        border-radius: 15px;
+    }
+    .exerciseColor{
+        background-color: #4BCF82;
+        width: 255px;
+        height: 154px;
+        border-radius: 15px;
+    }
+    .socialColor{
+        background-color: #7335D2;
+        width: 255px;
+        height: 154px;
+        border-radius: 15px;
+    }
+    .selfColor{
+        background-color: #F1C75B;
         width: 255px;
         height: 154px;
         border-radius: 15px;
@@ -105,4 +145,14 @@
     .textColor3{
         font-family: Rubik;
         color: #FFFFFF;
+    }
+    
+    .textColor4{
+        font-family: Rubik;
+        color: #FFFFFF;
+    }
+    
+    .textColor5{
+        font-family: Rubik;
+        color: #BBC0FF;
     }
