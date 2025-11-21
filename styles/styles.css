@@ -6,14 +6,6 @@
         font-family: Rubik-Light;
         src: url(../fonts/Rubik-Light.ttf);
     }
-    .attribution {
-        font-size: 11px;
-        text-align: center;
-    }
-
-    .attribution a {
-        color: hsl(228, 45%, 44%);
-    }
 
     body{
         background-color: #0E1323;
@@ -32,49 +24,40 @@
     
     .bgColor{
         background-color: #5747EA;
-        width: 255px;
-        height: 340px;
         border-radius: 15px;
+        height: 80%;
     }
 
     .bgColor2{
         background-color: #1C204B;
         z-index: auto;
-        width: 255px;
-        height: 154px;
+        height: 28%;
         border-radius: 15px;
-        margin-top: -16px;
+        margin-top: 125px;
+        padding-bottom: 20px;
     }
     
     .bgColor3{
         background-color: #1C204B;
-        width: 255px;
-        height: 154px;
+        padding-left: 30px;
         border-radius: 15px;
-    }
-    
-    .cardPlace{
-        display: grid;
-        grid-column: 2 / 5;
-        grid-template-columns: repeat(3, 1fr);
     }
 
     .textColor{
         font-family: Rubik-Light;
         font-size: 35px;
-        text-align: center;
         color: #FFFFFF;
         margin-top: -4px;
         margin-bottom: -4;
+        margin-left: 26px;
         margin-right: 76px;
     }
     
     .textColor2{
         font-family: Rubik;
         font-size: 15px;
-        text-align: center;
         color: #BBC0FF;
-        margin-right: 120px;
+        margin-left: 30px;
         margin-top: 40px;
     }
     
@@ -82,16 +65,6 @@
         color: #7078C9;
         padding-top: 30px;
         margin-left: 30px;
-    }
-
-    .dailyColor:hover{
-        color: blue;
-    }
-    .weeklyColor:hover{
-        color: blue;
-    }
-    .monthlyColor:hover{
-        color: blue;
     }
     
     .weeklyColor{
@@ -105,54 +78,102 @@
     }
 
     .workColor{
+        background-image: url(../images/icon-work.svg);
+        background-position: right top;
+        background-repeat: no-repeat;
         background-color: #FF8B64;
-        width: 255px;
-        height: 154px;
         border-radius: 15px;
+        padding-top: 30px;
     }
-
+    
     .playColor{
+        background-image: url(../images/icon-play.svg);
+        background-position: right top;
+        background-repeat: no-repeat;
         background-color: #55C2E6;
-        width: 255px;
-        height: 154px;
         border-radius: 15px;
+        padding-top: 30px;
     }
     .studyColor{
+        background-image: url(../images/icon-study.svg);
+        background-position: right top;
+        background-repeat: no-repeat;
         background-color: #FF5E7D;
-        width: 255px;
-        height: 154px;
         border-radius: 15px;
+        padding-top: 30px;
     }
     .exerciseColor{
+        background-image: url(../images/icon-exercise.svg);
+        background-position: right top;
+        background-repeat: no-repeat;
         background-color: #4BCF82;
-        width: 255px;
-        height: 154px;
         border-radius: 15px;
+        padding-top: 30px;
     }
     .socialColor{
+        background-image: url(../images/icon-social.svg);
+        background-position: right top;
+        background-repeat: no-repeat;
         background-color: #7335D2;
-        width: 255px;
-        height: 154px;
         border-radius: 15px;
+        padding-top: 30px;
     }
     .selfColor{
+        background-image: url(../images/icon-self-care.svg);
+        background-position: right top;
+        background-repeat: no-repeat;
         background-color: #F1C75B;
-        width: 255px;
-        height: 154px;
         border-radius: 15px;
+        padding-top: 30px;
     }
 
     .textColor3{
+        padding-top: 30px;
         font-family: Rubik;
         color: #FFFFFF;
     }
     
     .textColor4{
-        font-family: Rubik;
+        font-family: Rubik-Light;
         color: #FFFFFF;
+        font-size: 49px;
+        margin-bottom: 0px;
     }
     
     .textColor5{
-        font-family: Rubik;
+        font-family: Rubik-Light;
         color: #BBC0FF;
+        padding-bottom: 10px;
+    }
+
+    .gridOne {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 27px;
+    }
+
+    .cardOne {
+        grid-column: 1;
+        grid-row: 1 / 3;
+    }
+
+    .pad1 {
+        width: 74%;
+        margin: 0 10%;
+        margin-top: 200px;
+    }
+
+    @media (max-width: 768px) {
+        .gridOne {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+    }
+
+    @media (max-width: 425px) {
+        .gridOne {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
     }
