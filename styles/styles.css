@@ -62,17 +62,20 @@
     }
     
     .dailyColor{
+        background-color: #1C204B;
         color: #7078C9;
         padding-top: 30px;
         margin-left: 30px;
     }
     
     .weeklyColor{
+        background-color: #1C204B;
         color: #FFFFFF;
         margin-left: 30px;
     }
     
     .monthlyColor{
+        background-color: #1C204B;
         color: #7078C9;
         margin-left: 30px;
     }

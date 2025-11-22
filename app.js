@@ -1,82 +1,62 @@
-import Work from "./data.json" with { type: "json" };
-import Play from "./data.json" with { type: "json" };
-import Study from "./data.json" with { type: "json" };
-import Exercise from "./data.json" with { type: "json" };
-import Social from "./data.json" with { type: "json" };
-import SelfCare from "./data.json" with { type: "json" };
+import Data from "./data.json" with { type: "json" };
 
-let work = Work.Work[0].timeframes;
-let play = Play.Play[1].timeframes;
-let study = Study.Study[2].timeframes;
-let exercise = Exercise.Exercise[3].timeframes;
-let social = Social.Social[4].timeframes;
-let selfcare = SelfCare[5].timeframes;
 let daily = document.getElementById("daily")
 let weekly = document.getElementById("weekly")
 let monthly = document.getElementById("monthly")
+let workHours = document.getElementById("workHours")
+let workWeek = document.getElementById("workWeek")
+let playHours = document.getElementById("playHours")
+let playWeek = document.getElementById("playWeek")
+let studyHours = document.getElementById("studyHours")
+let studyWeek = document.getElementById("studyWeek")
+let exerciseHours = document.getElementById("exerciseHours")
+let exerciseWeek = document.getElementById("exerciseWeek")
+let socialHours = document.getElementById("socialHours")
+let socialWeek = document.getElementById("socialWeek")
+let selfHours = document.getElementById("selfHours")
+let selfWeek = document.getElementById("selfWeek")
 
 
 daily.addEventListener('click', function () {
-    daily.innerText = Work.Work[0].daily;
+    console.log(Data);
+    workHours.innerText = Data.timestamps[0].daily;
+    workWeek.innerText = Data[0].daily;
+    playHours.innerText = Data[0].daily;
+    playWeek.innerText = Data[0].daily;
+    studyHours.innerText = Data[0].daily;
+    studyWeek.innerText = Data[0].daily;
+    exerciseHours.innerText = Data[0].daily;
+    exerciseWeek.innerText = Data[0].daily;
+    socialHours.innerText = Data[0].daily;
+    socialWeek.innerText = Data[0].daily;
+    selfHours.innerText = Data[0].daily;
+    selfWeek.innerText = Data[0].daily;
 })
 weekly.addEventListener('click', function () {
-    weekly.innerText = Work.Work[0].weekly;
+    workHours.innerText = Data[0].weekly;
+    workWeek.innerText = Data[0].weekly;
+    playHours.innerText = Data[0].weekly;
+    playWeek.innerText = Data[0].weekly;
+    studyHours.innerText = Data[0].weekly;
+    studyWeek.innerText = Data[0].weekly;
+    exerciseHours.innerText = Data[0].weekly;
+    exerciseWeek.innerText = Data[0].weekly;
+    socialHours.innerText = Data[0].weekly;
+    socialWeek.innerText = Data[0].weekly;
+    selfHours.innerText = Data[0].weekly;
+    selfWeek.innerText = Data[0].weekly;
 })
 monthly.addEventListener('click', function () {
-    monthly.innerText = Work.Work[0].monthly;
-})
-
-
-daily.addEventListener('click', function () {
-    daily.innerText = Play.Play[1].daily;
-})
-weekly.addEventListener('click', function () {
-    weekly.innerText = Play.Play[1].weekly;
-})
-monthly.addEventListener('click', function () {
-    monthly.innerText = Play.Play[1].monthly;
-})
-
-
-daily.addEventListener('click', function () {
-    daily.innerText = Work.Work[0].daily;
-})
-weekly.addEventListener('click', function () {
-    weekly.innerText = Work.Work[0].weekly;
-})
-monthly.addEventListener('click', function () {
-    monthly.innerText = Work.Work[0].monthly;
-})
-
-
-daily.addEventListener('click', function () {
-    daily.innerText = Work.Work[0].daily;
-})
-weekly.addEventListener('click', function () {
-    weekly.innerText = Work.Work[0].weekly;
-})
-monthly.addEventListener('click', function () {
-    monthly.innerText = Work.Work[0].monthly;
-})
-
-
-daily.addEventListener('click', function () {
-    daily.innerText = Work.Work[0].daily;
-})
-weekly.addEventListener('click', function () {
-    weekly.innerText = Work.Work[0].weekly;
-})
-monthly.addEventListener('click', function () {
-    monthly.innerText = Work.Work[0].monthly;
-})
-
-
-daily.addEventListener('click', function () {
-    daily.innerText = Work.Work[0].daily;
-})
-weekly.addEventListener('click', function () {
-    weekly.innerText = Work.Work[0].weekly;
-})
-monthly.addEventListener('click', function () {
-    monthly.innerText = Work.Work[0].monthly;
+    workHours.innerText = Data[0].monthly;
+    workWeek.innerText = Data[0].monthly;
+    playHours.innerText = Data[0].monthly;
+    playWeek.innerText = Data[0].monthly;
+    studyHours.innerText = Data[0].weekly;
+    studyWeek.innerText = Data[0].monthly;
+    exerciseHours.innerText = Data[0].monthly;
+    exerciseWeek.innerText = Data[0].monthly;
+    socialHours.innerText = Data[0].monthly;
+    socialWeek.innerText = Data[0].monthly;
+    selfHours.innerText = Data[0].monthly;
+    selfWeek.innerText = Data[0].monthly;
 })
