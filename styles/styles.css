@@ -70,7 +70,7 @@
     
     .weeklyColor{
         background-color: #1C204B;
-        color: #FFFFFF;
+        color: #7078C9;
         margin-left: 30px;
     }
     
@@ -78,6 +78,18 @@
         background-color: #1C204B;
         color: #7078C9;
         margin-left: 30px;
+    }
+
+    .daily1:hover{
+        color: white;
+    }
+
+    .weekly1:hover{
+        color: white;
+    }
+
+    .monthly1:hover{
+        color: white;
     }
 
     .workColor{
