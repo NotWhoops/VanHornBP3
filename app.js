@@ -16,9 +16,10 @@ let socialWeek = document.getElementById("socialWeek")
 let selfHours = document.getElementById("selfHours")
 let selfWeek = document.getElementById("selfWeek")
 
+console.log(Data[0]);
 
 daily.addEventListener('click', function () {
-    workHours.innerText = Data.timeframes.daily.current[0];
+    workHours.innerText = Data[0].timeframes.daily.current;
     workWeek.innerText = Data.timeframes.daily.previous[0];
     playHours.innerText = Data.timeframes.daily.current[1];
     playWeek.innerText = Data.timeframes.daily.previous[1];
