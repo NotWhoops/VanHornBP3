@@ -16,47 +16,46 @@ let socialWeek = document.getElementById("socialWeek")
 let selfHours = document.getElementById("selfHours")
 let selfWeek = document.getElementById("selfWeek")
 
-console.log(Data[0]);
 
 daily.addEventListener('click', function () {
-    workHours.innerText = Data[0].timeframes.daily.current;
-    workWeek.innerText = Data[0].timeframes.daily.previous;
-    playHours.innerText = Data[1].timeframes.daily.current;
-    playWeek.innerText = Data[1].timeframes.daily.previous;
-    studyHours.innerText = Data[2].timeframes.daily.current;
-    studyWeek.innerText = Data[2].timeframes.daily.previous;
-    exerciseHours.innerText = Data[3].timeframe.daily.current;
-    exerciseWeek.innerText = Data[3].timeframes.daily.previous;
-    socialHours.innerText = Data[4].timeframes.daily.current;
-    socialWeek.innerText = Data[4].timeframes.daily.previous;
-    selfHours.innerText = Data[5].timeframes.daily.current;
-    selfWeek.innerText = Data[5].timeframes.daily.previous;
+    workHours.innerText = Data[0].timeframes.daily.current + " hrs";
+    workWeek.innerText = Data[0].timeframes.daily.previous + " Last Week";
+    playHours.innerText = Data[1].timeframes.daily.current + " hrs";
+    playWeek.innerText = Data[1].timeframes.daily.previous + " Last Week";
+    studyHours.innerText = Data[2].timeframes.daily.current + " hrs";
+    studyWeek.innerText = Data[2].timeframes.daily.previous + " Last Week";
+    exerciseHours.innerText = Data[3].timeframes.daily.current + " hrs";
+    exerciseWeek.innerText = Data[3].timeframes.daily.previous + " Last Week";
+    socialHours.innerText = Data[4].timeframes.daily.current + " hrs";
+    socialWeek.innerText = Data[4].timeframes.daily.previous + " Last Week";
+    selfHours.innerText = Data[5].timeframes.daily.current + " hrs";
+    selfWeek.innerText = Data[5].timeframes.daily.previous + " Last Week";
 })
 weekly.addEventListener('click', function () {
-    workHours.innerText = Data[0].timeframes.weekly.current;
-    workWeek.innerText = Data[0].timeframes.weekly.previous;
-    playHours.innerText = Data[1].timeframes.weekly.current;
-    playWeek.innerText = Data[1].timeframes.weekly.previous;
-    studyHours.innerText = Data[2].timeframes.weekly.current;
-    studyWeek.innerText = Data[2].timeframes.weekly.previous;
-    exerciseHours.innerText = Data[3].timeframes.weekly.current;
-    exerciseWeek.innerText = Data[3].timeframes.weekly.previous;
-    socialHours.innerText = Data[4].timeframes.weekly.current;
-    socialWeek.innerText = Data[4].timeframes.weekly.previous;
-    selfHours.innerText = Data[5].timeframes.weekly.current;
-    selfWeek.innerText = Data[5].timeframes.weekly.previous;
+    workHours.innerText = Data[0].timeframes.weekly.current + " hrs";
+    workWeek.innerText = Data[0].timeframes.weekly.previous + " Last Week";
+    playHours.innerText = Data[1].timeframes.weekly.current + " hrs";
+    playWeek.innerText = Data[1].timeframes.weekly.previous + " Last Week";
+    studyHours.innerText = Data[2].timeframes.weekly.current + " hrs";
+    studyWeek.innerText = Data[2].timeframes.weekly.previous + " Last Week";
+    exerciseHours.innerText = Data[3].timeframes.weekly.current + " hrs";
+    exerciseWeek.innerText = Data[3].timeframes.weekly.previous + " Last Week";
+    socialHours.innerText = Data[4].timeframes.weekly.current + " hrs";
+    socialWeek.innerText = Data[4].timeframes.weekly.previous + " Last Week";
+    selfHours.innerText = Data[5].timeframes.weekly.current + " hrs";
+    selfWeek.innerText = Data[5].timeframes.weekly.previous + " Last Week";
 })
 monthly.addEventListener('click', function () {
-    workHours.innerText = Data[0].timeframes.weekly.current;
-    workWeek.innerText = Data[0].timeframes.weekly.previous;
-    playHours.innerText = Data[1].timeframes.weekly.current;
-    playWeek.innerText = Data[1].timeframes.weekly.previous;
-    studyHours.innerText = Data[2].timeframes.weekly.current;
-    studyWeek.innerText = Data[2].timeframes.weekly.previous;
-    exerciseHours.innerText = Data[3].timeframes.weekly.current;
-    exerciseWeek.innerText = Data[3].timeframes.weekly.previous;
-    socialHours.innerText = Data[4].timeframes.weekly.current;
-    socialWeek.innerText = Data[4].timeframes.weekly.previous;
-    selfHours.innerText = Data[5].timeframes.weekly.current;
-    selfWeek.innerText = Data[5].timeframes.weekly.previous;
+    workHours.innerText = Data[0].timeframes.monthly.current + " hrs";
+    workWeek.innerText = Data[0].timeframes.monthly.previous + " Last Week";
+    playHours.innerText = Data[1].timeframes.monthly.current + " hrs";
+    playWeek.innerText = Data[1].timeframes.monthly.previous + " Last Week";
+    studyHours.innerText = Data[2].timeframes.monthly.current + " hrs";
+    studyWeek.innerText = Data[2].timeframes.monthly.previous + " Last Week";
+    exerciseHours.innerText = Data[3].timeframes.monthly.current + " hrs";
+    exerciseWeek.innerText = Data[3].timeframes.monthly.previous + " Last Week";
+    socialHours.innerText = Data[4].timeframes.monthly.current + " hrs";
+    socialWeek.innerText = Data[4].timeframes.monthly.previous + " Last Week";
+    selfHours.innerText = Data[5].timeframes.monthly.current + " hrs";
+    selfWeek.innerText = Data[5].timeframes.monthly.previous + " Last Week";
 })
